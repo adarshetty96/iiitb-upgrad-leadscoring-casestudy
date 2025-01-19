@@ -43,13 +43,13 @@ The dataset contains information about leads, including:
 
 ## **Approach**
 1. **Exploratory Data Analysis (EDA)**:
-   - Examined trends, patterns, and outliers in the data.
+   - Examined trends and patterns in the data.
    - Visualized correlations and distributions of features.
 2. **Data Preprocessing**:
-   - Handled missing values, outliers, and categorical encoding.
+   - Handled missing values, used numerical/categorical encoding.
    - Normalized numeric variables.
 3. **Model Building**:
-   - Trained multiple models (e.g., Logistic Regression, Decision Trees).
+   - Trained Logistic Rgression model 
    - Tuned hyperparameters using grid search.
 4. **Model Evaluation**:
    - Used metrics like accuracy, precision, recall, F1-score, and ROC-AUC.
@@ -57,10 +57,9 @@ The dataset contains information about leads, including:
 ---
 
 ## **Results**
-- The best model achieved an **accuracy of X%** and an **ROC-AUC score of Y%**.
-- Key insights:
-  - Leads from [specific source] had a higher conversion rate.
-  - Time spent on the website was a significant predictor of conversion.
+- The best model achieved an **accuracy of 91%** and an **ROC-AUC score of ~96%**.
+- Key insight:
+  - Time spent on the website was a significant predictor of conversion.  
 
 ---
 
@@ -74,7 +73,7 @@ The dataset contains information about leads, including:
 ## **How to Run the Project**
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/iiitb-upgrad-leadscoring-casestudy.git
+   git clone https://github.com/adarshetty96/iiitb-upgrad-leadscoring-casestudy.git
 
 2. **Navigate to the Directory**:
    ```bash
